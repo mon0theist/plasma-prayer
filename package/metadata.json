@@ -3,7 +3,7 @@
         "Authors": [
             {
                 "Email": "bburns91@gmail.com",
-                "Name": "Ryen Burns",
+                "Name": "Ryen Burns"
             }
         ],
         "Category": "Date and Time",
@@ -13,15 +13,15 @@
             "handset",
             "desktop"
         ],
-        "Icon": "preferences-system-time",
-        "Id": "org.kde.plasma.plasmaprayer",
+        "Icon": "icons8-mosque-80",
+        "Id": "com.github.mon0theist.plasmaprayer",
         "License": "GPL-3.0+",
         "Name": "PlasmaPrayer",
         "ServiceTypes": [
             "Plasma/Applet"
         ],
-        "Version": "3.0",
-        "Website": "https://kde.org/plasma-desktop"
+        "Version": "0",
+        "Website": "https://github.com/mon0theist/plasma-prayer"
     },
     "X-KDE-ParentApp": "org.kde.plasmashell",
     "X-Plasma-API": "declarativeappletscript",
@@ -29,5 +29,7 @@
     "X-Plasma-Provides": [
         "org.kde.plasma.time",
         "org.kde.plasma.date"
-    ]
+    ],
+    "X-Plasma-NotificationArea": "true",
+    "X-Plasma-NotificationAreaCategory": "SystemServices"
 }

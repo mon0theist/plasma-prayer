@@ -1,0 +1,33 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "bburns91@gmail.com",
+                "Name": "Ryen Burns",
+            }
+        ],
+        "Category": "Date and Time",
+        "Description": "Islamic prayer times for KDE",
+        "FormFactors": [
+            "tablet",
+            "handset",
+            "desktop"
+        ],
+        "Icon": "preferences-system-time",
+        "Id": "org.kde.plasma.plasmaprayer",
+        "License": "GPL-3.0+",
+        "Name": "PlasmaPrayer",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "3.0",
+        "Website": "https://kde.org/plasma-desktop"
+    },
+    "X-KDE-ParentApp": "org.kde.plasmashell",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.time",
+        "org.kde.plasma.date"
+    ]
+}
